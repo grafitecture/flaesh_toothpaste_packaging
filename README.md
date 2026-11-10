@@ -1,14 +1,14 @@
-# fläsh. Sensitive Care – Finales Design Faltschachtel und Tube
+# fläsh. Sensitive Care – Faltschachtel im neuen Design
 
-Präsentationsseite mit den 3D-Visualisierungen des finalen Designs (Grundlage: 08_FLAESH_PACK_CDB_2026.pdf, Stand 6. November 2026):
-liegende Faltschachtel mit gleicher Vorderseite und drei Rückseiten-Varianten, weiße Tube und Innendruck.
+Präsentationsseite mit den 3D-Visualisierungen des neuen Designs (Grundlage: 09_FLAESH_PACK_CDB_2026.pdf, Seite 3, Stand 10. November 2026):
+Vorderseite mit neuem Zahnsymbol, Bluedenta-Seite (Werbefeld) und das Zahnsymbol in der Vergrößerung.
 
 - `index.html` – statische Seite, kein Build-Schritt nötig (Vercel: Framework „Other“, Output = Repo-Root)
 - `img/` – Web-Ansichten, `img/gross/` – große Ansichten für die Lightbox
-  - `hero`, `vorne`, `vorne_gerade` – Vorderseite
-  - `rueck_gruppe`, `rueck_a|b|c`, `rueckgerade_a|b|c` – Rückseite, Variante A (PDF-Seite 2), B (Seite 3), C (Seite 4)
-  - `tube_vorne`, `tube_hinten`, `innenseite`
-- `download/` – alle Ansichten als PDF
+  - `hero` – Vorderseite und Bluedenta-Seite zusammen
+  - `vorne`, `vorne_gerade` – Vorderseite schräg und frontal
+  - `bluedenta`, `bluedenta_gerade` – Werbefeld mit Bluedenta-Feld, schräg und frontal
+  - `zahn_gerade`, `zahn` – Zahnsymbol vergrößert, frontal und schräg
 - Schrift: Inter (SIL Open Font License, siehe `assets/fonts/LICENSE-Inter.txt`), lokal eingebunden
 
 Die Seite ist per `robots.txt` und `X-Robots-Tag` von Suchmaschinen ausgeschlossen.
