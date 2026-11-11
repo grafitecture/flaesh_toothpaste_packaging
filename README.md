@@ -1,6 +1,6 @@
 # fläsh. Sensitive Care – Faltschachtel und Tube im neuen Design
 
-Präsentationsseite mit den 3D-Visualisierungen des neuen Designs (Grundlage: 09_FLAESH_PACK_CDB_2026.pdf, Seiten 2, 3 und 5, Stand 10. November 2026):
+Präsentationsseite mit den 3D-Visualisierungen des neuen Designs (Grundlage: 09_FLAESH_PACK_CDB_2026.pdf, Seiten 3 und 5; Rückseiten hell/dunkel aus 10_FLAESH_PACK_CDB_2026.pdf, Seiten 2 und 3; Stand 11. November 2026):
 Vorderseite mit neuem Zahnsymbol, Bluedenta-Seite (Werbefeld), Rückseite hell und dunkel, das Zahnsymbol in der Vergrößerung und die Tube (Seite 5).
 
 - `index.html` – statische Seite, kein Build-Schritt nötig (Vercel: Framework „Other“, Output = Repo-Root)
