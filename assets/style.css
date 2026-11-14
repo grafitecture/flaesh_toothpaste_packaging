@@ -3,9 +3,9 @@
   --ink:#3e4a52;
   --ink-soft:#717f86;
   --line:#e3e7ea;
-  --focus:#1c4a37;
+  --focus:#3e4a52;
   --mint:#bfddcb;
-  --green:#1c4a37;
+  --green:#3e4a52;
   --wrap:1320px;
   --gut:clamp(16px,4vw,48px);
 }
@@ -53,15 +53,15 @@ figcaption b{font-weight:600;color:var(--ink);margin-right:8px}
 .block-head p{margin:0;color:var(--ink-soft);max-width:60ch}
 .pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,48px);align-items:end}
 .pair-gap{margin-top:clamp(24px,4vw,56px)}
-.pair-tube{grid-template-columns:minmax(0,1.55fr) minmax(0,.75fr)}
 .pair figcaption,.single figcaption{text-align:center}
 .single{max-width:1500px;margin:0 auto}
 
-.lupe{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.6fr);gap:clamp(16px,3vw,48px);align-items:center}
-.ort-bild{position:relative;overflow:hidden;border-radius:6px}
-.ausschnitt{position:absolute;border:2px solid var(--green);border-radius:6px;box-shadow:0 0 0 9999px rgba(255,255,255,.45);pointer-events:none}
-.lupe-ort figcaption,.lupe figcaption{text-align:center}
-.single-zahn{margin-top:clamp(24px,4vw,56px)}
+.sorten{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(12px,2vw,24px)}
+.sorten li{display:flex;flex-direction:column;gap:4px;padding:16px 0 0;border-top:6px solid var(--c);font-size:15px;line-height:1.4}
+.sorten .nr{font-family:"Inter Display","Inter",sans-serif;font-weight:600;font-size:22px;color:var(--ink);line-height:1.1;margin-bottom:4px}
+.sorten .name{color:var(--ink-soft)}
+.sorten .sorte{font-weight:600;color:var(--ink)}
+.sorten .ref{font-size:13px;color:var(--ink-soft);margin-top:4px}
 
 .foot{border-top:1px solid var(--line);margin-top:clamp(64px,9vw,112px);padding:40px 0 56px}
 .foot p{margin:0 0 10px}
@@ -82,16 +82,16 @@ body.lb-open{overflow:hidden}
 @media (max-width:900px){
   .hero-text,.block-head{grid-template-columns:1fr}
   .top nav{display:none}
+  .sorten{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:24px}
 }
 @media (max-width:700px){
-  .pair,.lupe{grid-template-columns:1fr}
-  .lupe-ort{max-width:520px;margin:0 auto;width:100%}
-  .pair-tube figure:last-child{max-width:420px;margin:0 auto;width:100%}
+  .pair{grid-template-columns:1fr}
   .lightbox{padding:56px 8px 24px}
   .lb-prev,.lb-next{top:auto;bottom:12px;transform:none}
 }
 @media (max-width:520px){
   .product span{display:none}
+  .sorten{grid-template-columns:1fr}
   .product strong{font-size:18px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.top{transition:none}}
