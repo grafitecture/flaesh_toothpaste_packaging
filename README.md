@@ -10,6 +10,7 @@ Die fünf Sorten: Sensitive Care & Protect Wintergreen (REF 3334), Whitening Car
   - `werbefeld_turm` – Werbefeld schräg, gestapelt (Schachteln auf dem Rücken)
   - `rueck_turm`, `rueck_schraeg` – Rückseite frontal und schräg von links (Schachteln gewendet)
   - `tuben_liegend`, `tuben_stehend` – Tuben liegend (Vorderseite) und stehend auf der Kappe (Rückseite)
+  - `v2_…`, `v3_…`, `v4_…` – Varianten 2 bis 4 aus 18_FLAESH_PACK_CDB_2026.pdf (Seite 22–25, 27–30, 32–35), je vier Schachteln (Sensitive, Lime-Mint, Coconut-Salt, Ginger-Orange) in den Ansichten `vorne_alle`, `vorne_turm`, `werbefeld_turm`, `rueck_turm`, `rueck_schraeg`; auf der Seite im Abschnitt „Varianten“ mit Umschalter
 - Schrift: Inter (SIL Open Font License, siehe `assets/fonts/LICENSE-Inter.txt`), lokal eingebunden
 
 Die Seite ist per `robots.txt` und `X-Robots-Tag` von Suchmaschinen ausgeschlossen.
