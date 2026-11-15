@@ -1,6 +1,6 @@
 # fläsh. Toothpaste – Faltschachteln und Tuben, alle fünf Sorten
 
-Präsentationsseite mit den 3D-Visualisierungen des neuen Designs (Grundlage: 17_FLAESH_PACK_CDB_2026.pdf, Schachteln Seite 2, 6, 10, 14, 18; Tuben Seite 4, 8, 12, 16, 20; Stand 15. November 2026 – gegenüber 16 nur die Vorderseite von Coconut-Salt geändert).
+Präsentationsseite mit den 3D-Visualisierungen des neuen Designs (Grundlage: 17_FLAESH_PACK_CDB_2026.pdf, Schachteln Seite 2, 6, 10, 14, 18; Tuben Seite 4, 8, 12, 16, 20; Stand 15. November 2026 – gegenüber 16 die Vorderseite von Coconut-Salt geändert; in der überarbeiteten 17 außerdem die Zahnwurzeln im Zahnsymbol aufgehellt: alle fünf Schachteln und die vier Whitening-Tuben, neu gerendert `vorne_alle`, `vorne_turm`, `werbefeld_turm`, `tuben_liegend`).
 Die fünf Sorten: Sensitive Care & Protect Wintergreen (REF 3334), Whitening Care & Repair Lime-Mint Version WHITEsmile (REF 3320) und Version Bluedenta (REF 3330), Coconut-Salt (REF 3325), Ginger-Orange (REF 3323). Jede Ansicht zeigt alle fünf in einem Bild.
 
 - `index.html` – statische Seite, kein Build-Schritt nötig (Vercel: Framework „Other“, Output = Repo-Root)
